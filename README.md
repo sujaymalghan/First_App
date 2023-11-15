@@ -1,4 +1,4 @@
-# first_app
+# Weather App using Flutter
 
 A new Flutter project.
 
