@@ -1,0 +1,33 @@
+name: first_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/heavyrain.jpg
+    - assets/images/hotsun.jpg
+    - assets/images/mildsunny.jpg
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ic_launcher.jpg"
